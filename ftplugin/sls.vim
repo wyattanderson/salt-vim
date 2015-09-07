@@ -3,10 +3,7 @@ if exists('+regexpengine') && ('&regexpengine' == 0)
   setlocal regexpengine=1
 endif
 
-" Use two-spaces for indentation
 setlocal expandtab
-setlocal softtabstop=2
-setlocal shiftwidth=2
 setlocal commentstring=#%s
 
 setlocal formatoptions=crl
